@@ -3,10 +3,18 @@
 This guide explains how to use the PokR tool, which calculates winning probabilities for Texas Hold'em poker using a combination of computer vision and web automation.
 
 ---
-<img src="INIT_GITHUB\PokR\Image_screenshot_poker.png" alt="Poker Card Detection" width="600"/>
 
 
-![Alt Text](INIT_GITHUB\PokR\Image_screenshot_poker.png)
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker.png" title="Poker Card Detection" alt="Poker Card Detection" height="500" width="900" style="margin-right: 10px;"/>
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni.png" title="Poker Card Detection" alt="Poker Card Detection" height="500" width="220"/>
+</p>
+
+
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker2.png" title="Poker Card Detection" alt="Poker Card Detection" height="500" width="900" style="margin-right: 10px;"/>
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni2.png" title="Poker Card Detection" alt="Poker Card Detection" height="500" width="220"/>
+</p>
 
 ## Step 1: Select Program Options
 Before starting the program, select the appropriate mode and configuration settings:
