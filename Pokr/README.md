@@ -14,7 +14,7 @@ This guide explains how to use the PokR tool, which calculates winning probabili
 
 
 <p align="center">
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni - copy.png" title="Poker Card Detection" alt="Poker Card Detection" height="700" style="margin-right: 10px;"/>
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni - Copy.png" title="Poker Card Detection" alt="Poker Card Detection" height="700" style="margin-right: 10px;"/>
   <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni2.png" title="Poker Card Detection" alt="Poker Card Detection" height="700" width="215" />
 </p>
 
