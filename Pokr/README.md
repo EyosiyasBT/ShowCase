@@ -6,8 +6,8 @@ This guide explains how to use the PokR tool, which calculates winning probabili
 
 
 <p align="center">
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker.png" title="Poker Card Detection" alt="Poker Card Detection" height="380" style="margin-right: 10px;"/>
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker2.png" title="Poker Card Detection" alt="Poker Card Detection" height="380"/>
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker.png" title="Poker Card Detection" alt="Poker Card Detection" height="370" style="margin-right: 10px;"/>
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker2.png" title="Poker Card Detection" alt="Poker Card Detection" height="370"/>
 </p>
 
 
