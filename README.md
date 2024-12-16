@@ -5,6 +5,10 @@ Welcome to the showcase of projects, ideas, and experiments I have worked on —
 ## PokR
 **PokR** is a tool designed to calculate the winning probability in Texas Hold'em (a standard 2-hand poker game with 5 community cards).
 
+<p align="center">
+  <img src="INIT_GITHUB\PokR\Image_real_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="900" />
+</p>
+
 ### 🔑 Keywords
 - **Language**: *Python*  
 - **Models**: *YOLOv8*, *YOLO11*  

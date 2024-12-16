@@ -5,23 +5,11 @@ This guide explains how to use the PokR tool, which calculates winning probabili
 ---
 
 
-<p align="center">
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker_combined.png" title="Poker Card Detection" alt="Poker Card Detection" height="400" />
-  
-</p>
-
-
-
-
-<p align="center">
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="700" />
-  
-</p>
 
 ## Step 1: Select Program Options
 Before starting the program, select the appropriate mode and configuration settings:
 
-### Modes:
+### Modes
 1. **Screen Recording Mode**:
    - Use the program to analyze a region of your screen (e.g., a video or game).
    - The region can be selected dynamically by clicking and dragging.
@@ -29,7 +17,9 @@ Before starting the program, select the appropriate mode and configuration setti
 2. **Camera Mode**:
    - Use an external camera (e.g., webcam) to capture the cards for analysis.
 
-### Configuration Settings:
+---
+
+### Configuration Settings
 - **`screen_record`**:
   - Set to `True` for screen recording mode.
   - Set to `False` for camera mode.
@@ -38,7 +28,36 @@ Before starting the program, select the appropriate mode and configuration setti
 - **`conf_value`**:
   - Confidence threshold for YOLO detection (default: `0.25`, range: `[0, 1]`).
 - **`iou_value`**:
-  - Intersection over Union (IoU) threshold for filtering overlapping detections (default: `0.5`, range: `[0, 1]`).
+  - Intersection over Union (IoU) threshold for filtering overlapping detections. IoU measures the overlap between two bounding boxes, and this value determines whether a box is retained or discarded during filtering (default: `0.5`, range: `[0, 1]`).
+
+---
+
+### Model Selection and Detection Process
+
+The program leverages the following logic to process detections using selected YOLO models and filters results based on the Intersection over Union (IoU) metric.
+
+#### **Model Selector: `list_models`**
+The `list_models` variable allows you to specify which YOLO models are used for detection. You can customize it by uncommenting the desired models. The available models are:
+
+- **YOLOv8 Models**:
+  - `yolov8n_last.pt` - Last checkpoint for YOLOv8n.
+  - `yolov8n_best.pt` - Best checkpoint for YOLOv8n.
+
+- **YOLO11 Models**:
+  - `yolo11n_last.pt` - Last checkpoint for YOLO11n.
+  - `yolo11n_best.pt` - Best checkpoint for YOLO11n.
+  - `yolo11m_last.pt` - Last checkpoint for YOLO11m.
+  - `yolo11m_best.pt` - Best checkpoint for YOLO11m.
+  - `yolo11m_42_last.pt` - Last checkpoint for YOLO11m (variant 42).
+  - `yolo11m_42_best.pt` - Best checkpoint for YOLO11m (variant 42).
+
+**Default Configuration**:
+The program defaults to the `yolo11m_42_best.pt` model:
+```python
+list_models = [
+    model_11m_42_best
+]
+```
 
 ---
 
@@ -51,7 +70,14 @@ Before starting the program, select the appropriate mode and configuration setti
 3. The program will use this region as input for detection and analysis.
 <p align="center">
   <img src="..\INIT_GITHUB\PokR\Image_screenshot_select_Area.png" title="Poker Card Detection" alt="Poker Card Detection" height="350" />
+</p>
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker_combined.png" title="Poker Card Detection" alt="Poker Card Detection" height="400" />
+</p>
 
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="700" />
+</p>
 ---
 
 ## Step 2B: Using Camera Mode
@@ -61,7 +87,6 @@ Before starting the program, select the appropriate mode and configuration setti
 
 <p align="center">
   <img src="..\INIT_GITHUB\PokR\Image_real_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="900" />
-  
 </p>
 
 ---
@@ -156,3 +181,39 @@ Install all required libraries using the following command:
 
 ```bash
 pip install matplotlib pillow opencv-python ultralytics selenium pyautogui
+```
+
+## 📝 Credits and Acknowledgments
+
+This project leverages the following datasets, tools, and software:
+
+### Datasets
+- **Playing Cards Dataset**  
+  - Title: *Playing Cards Dataset*  
+  - Author: Augmented Startups  
+  - Type: Open Source Dataset  
+  - Publisher: Roboflow  
+  - Source: [Playing Cards Dataset](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d)  
+  - Year: 2023 (Accessed: Dec 16, 2024)
+
+### Tools
+- **Poker Odds Calculator**  
+  - Author: de Wet, R.  
+  - Source: [Poker Odds Calculator](https://www.omnicalculator.com/other/poker-odds)  
+  - Accessed: Dec 16, 2024
+
+### Software
+- **Ultralytics YOLO11**  
+  - Authors: Glenn Jocher, Jing Qiu  
+  - Version: 11.0.0  
+  - Year: 2024  
+  - License: AGPL-3.0  
+  - Source: [YOLO11 on GitHub](https://github.com/ultralytics/ultralytics)
+
+- **Ultralytics YOLOv8**  
+  - Authors: Glenn Jocher, Ayush Chaurasia, Jing Qiu  
+  - Version: 8.0.0  
+  - Year: 2023  
+  - License: AGPL-3.0  
+  - Source: [YOLOv8 on GitHub](https://github.com/ultralytics/ultralytics)
+
