@@ -49,6 +49,8 @@ Before starting the program, select the appropriate mode and configuration setti
    - **Click and drag** to select the rectangular area to capture.
    - Release the mouse to confirm the selection.
 3. The program will use this region as input for detection and analysis.
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_select_Area.png" title="Poker Card Detection" alt="Poker Card Detection" height="350" />
 
 ---
 
@@ -56,6 +58,11 @@ Before starting the program, select the appropriate mode and configuration setti
 1. Set `screen_record = False` in the code.
 2. Ensure your external camera is connected and recognized by the program.
 3. The program will automatically start capturing input from your camera.
+
+<p align="center">
+  <img src="..\INIT_GITHUB\PokR\Image_real_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="900" />
+  
+</p>
 
 ---
 
