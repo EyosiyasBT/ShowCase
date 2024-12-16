@@ -48,8 +48,8 @@ The `list_models` variable allows you to specify which YOLO models are used for 
   - `yolo11n_best.pt` - Best checkpoint for YOLO11n.
   - `yolo11m_last.pt` - Last checkpoint for YOLO11m.
   - `yolo11m_best.pt` - Best checkpoint for YOLO11m.
-  - `yolo11m_42_last.pt` - Last checkpoint for YOLO11m (variant 42).
-  - `yolo11m_42_best.pt` - Best checkpoint for YOLO11m (variant 42).
+  - `yolo11m_42_last.pt` - Last checkpoint for YOLO11m (epoch 42).
+  - `yolo11m_42_best.pt` - Best checkpoint for YOLO11m (epoch 42).
 
 **Default Configuration**:
 The program defaults to the `yolo11m_42_best.pt` model:
