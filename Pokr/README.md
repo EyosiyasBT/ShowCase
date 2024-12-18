@@ -78,6 +78,7 @@ list_models = [
 <p align="center">
   <img src="..\INIT_GITHUB\PokR\Image_screenshot_omni_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="700" />
 </p>
+
 ---
 
 ## Step 2B: Using Camera Mode
