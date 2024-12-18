@@ -69,7 +69,7 @@ list_models = [
    - Release the mouse to confirm the selection.
 3. The program will use this region as input for detection and analysis.
 <p align="center">
-  <img src="..\INIT_GITHUB\PokR\Image_screenshot_select_Area.png" title="Poker Card Detection" alt="Poker Card Detection" height="350" />
+  <img src="..\INIT_GITHUB\PokR\Image_screenshot_select_area.png" title="Poker Card Detection" alt="Poker Card Detection" height="350" />
 </p>
 <p align="center">
   <img src="..\INIT_GITHUB\PokR\Image_screenshot_poker_combined.png" title="Poker Card Detection" alt="Poker Card Detection" height="400" />
