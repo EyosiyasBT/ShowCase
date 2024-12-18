@@ -1,5 +1,5 @@
 # ShowCase - The Home of Proof of Concepts
-Welcome to **ShowCase**, a collection of projects, ideas, and experiments I’ve worked on — whether completed, attempted, or failed. For me, programming is about exploring crazy ideas and trying to bring them to life. Most things can be created, and most problems solved, given enough time, effort, and simplification.
+Welcome to **ShowCase**, a collection of projects, ideas, and experiments I’ve worked on — whether completed, attempted, or failed [hopefully this will be a place of only completed projects]. For me, programming is about exploring crazy ideas and trying to bring them to life. Most things can be created, and most problems solved, given enough time, effort, and simplifications.
 
 ---
 
