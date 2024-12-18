@@ -38,7 +38,6 @@ Welcome to **ShowCase**, a collection of projects, ideas, and experiments I’ve
 ---
 
 
-
 ### 📝 Credits
 - **Dataset**: [Playing Cards Dataset by Augmented Startups](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d)
 - **Calculator**: [Poker Odds Calculator by de Wet, R.](https://www.omnicalculator.com/other/poker-odds)
