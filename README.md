@@ -4,7 +4,8 @@ Welcome to **ShowCase**, a collection of projects, ideas, and experiments I’ve
 ---
 
 ## PokR - v1.0
-**PokR** is a proof-of-concept tool designed to calculate the winning probability in Texas Hold'em poker (1 deck, 2-hand poker with 5 community cards). It combines object detection with automated probability calculation to make analyzing poker scenarios easy and efficient. This version, v1.0, works with both a physical camera and with screenrecording.
+**PokR** is a proof-of-concept tool designed to calculate the winning probability in Texas Hold'em poker (1 deck, 2-hand poker with 5 community cards). It combines object detection with automated probability calculation to make analyzing poker scenarios easy and efficient. This version, v1.0, works with both a physical camera and with screenrecording.\
+*This project from the research, exploration, training, programming, fixing the gui, and writing the documentation has taken me 39 hours and 10 minutes.*
 
 <p align="center">
   <img src="INIT_GITHUB\PokR\Image_real_combined.png" title="Poker Card Detection" alt="Poker Card Detection" width="1000" />
@@ -36,7 +37,6 @@ Welcome to **ShowCase**, a collection of projects, ideas, and experiments I’ve
 - **Key Libraries**: Selenium, OpenCV, pyautogui, tkinter, Pillow
 
 ---
-
 
 ### 📝 Credits
 - **Dataset**: [Playing Cards Dataset by Augmented Startups](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d)

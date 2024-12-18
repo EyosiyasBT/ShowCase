@@ -1,6 +1,7 @@
 # User Guide for PokR Program
 
-This guide explains how to use the PokR tool, which calculates winning probabilities for Texas Hold'em poker using a combination of computer vision and web automation.
+This guide explains how to use the PokR tool, which calculates winning probabilities for Texas Hold'em poker using a combination of computer vision and web automation. \
+*This project from the research, exploration, training, programming, fixing the gui, and writing the documentation has taken me 39 hours and 10 minutes.*
 
 ---
 
